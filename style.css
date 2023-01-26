@@ -1,0 +1,155 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    font-family: 'Courier New', Courier, monospace;
+    color: #fff;
+    font-size: 16px;
+    margin-bottom: 0 !important;
+}
+
+body {
+    background-color: black;
+}
+
+
+.header {
+    display: flex;
+    background-color: black;
+    width: 100%;
+    height: 70px;
+    justify-content: space-between;
+    padding-left: 20px;
+    align-items: center
+}
+
+.logo {
+    width: max-content;
+    height: 100%;
+}
+
+.menu {
+    display: flex;
+    width: -moz-fit-content;
+    width: fit-content;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    padding: 0 20px;
+}
+
+.menu .anchor {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1rem;
+}
+
+.menu:hover {
+    background-color: #fff;
+}
+
+.menu:hover .anchor {
+    color: black;
+}
+
+.main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    padding: 50px 0;
+}
+
+.foto {
+    background-color: black;
+    width: 50%;
+    height: 30%;
+}
+
+.foto .foto-principal {
+    object-fit: cover;
+    width: 100%;
+
+}
+
+.aside {
+    display: flex;
+    width: 100%;
+    height: 500px;
+    gap: 10px;
+}
+
+
+.aside .item {
+    height: 100%;
+    flex: 1;
+}
+
+.aside .poster {
+    padding: 20px;
+}
+
+.poster .capa-filme {
+    object-fit: contain;
+    height: 100%;
+    width: 100%;
+}
+
+.aside .sinopse {
+    flex: 2;
+}
+
+.sinopse {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sinopse .resumo-item {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1rem;
+}
+
+.creditos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.container-slide {
+    text-align: center;
+    padding: 50px 20%;
+}
+
+.footer {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    width: 100%;
+    height: 85px;
+}
+
+.footer .pe {
+ 
+    width: 40%;
+    height: 40px;
+}
+
+.creditos .title {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.sinopse .historia {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.footer .final {
+    display: flex;
+    font-size: 18px;
+    font-weight: bold;
+    padding-left: 20px;
+    justify-content: center;
+}
