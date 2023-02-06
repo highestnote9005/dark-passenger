@@ -1,7 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
 * {
     box-sizing: border-box;
     margin: 0;
-    font-family: 'Courier New', Courier, monospace;
+    font-family: 'Lato',sans-serif;
     color: #fff;
     font-size: 16px;
     margin-bottom: 0 !important;
@@ -72,50 +73,68 @@ body {
 
 }
 
-.aside {
+
+.title-container {
     display: flex;
-    width: 100%;
-    height: 500px;
-    gap: 10px;
+    align-items: center;
+    gap: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    justify-content: space-between;
+    height: 40px;
 }
 
-
-.aside .item {
-    height: 100%;
+.title-container .title-1 {
+    width: 100%;
     flex: 1;
 }
 
-.aside .poster {
-    padding: 20px;
-}
-
-.poster .capa-filme {
-    object-fit: contain;
-    height: 100%;
+.title-container .title-2 {
     width: 100%;
-}
-
-.aside .sinopse {
     flex: 2;
 }
 
-.sinopse {
+.title-container .title-3 {
+    width: 100%;
+    flex: 1;
+}
+
+.content-container {
     display: flex;
-    justify-content: center;
     align-items: center;
+    gap: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    justify-content: space-between;
 }
 
-.sinopse .resumo-item {
-    font-family: 'Courier New', Courier, monospace;
-    font-size: 1rem;
+.content-container .content-1 {
+    height: 50%;
+    width: 100%;
+    flex: 1;
 }
 
-.creditos {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.content-container .content-2  {
+    height: 50%;
+    width: 100%;
+    flex: 2;
 }
 
+.content-container .content-2 p {
+    font-size: 18px;
+}
+
+.content-container .content-3 {
+    height: 50%;
+    width: 100%;
+    flex: 1;
+}
+
+.content-container .content-1 .poster {
+    object-fit: contain;
+    width: 100%;
+    width: 100%;
+}
 
 .container-slide {
     text-align: center;
@@ -153,3 +172,4 @@ body {
     padding-left: 20px;
     justify-content: center;
 }
+
